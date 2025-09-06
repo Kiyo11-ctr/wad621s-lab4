@@ -54,7 +54,7 @@ document.addEventListener('DOMContentLoaded', () => {
     form.reset();
   });
 
-
+// One click handler: removes both the card and its matching table row
   document.addEventListener('click', (e)=>{
     const btn = e.target.closest('[data-remove]');
     if (!btn) return;
